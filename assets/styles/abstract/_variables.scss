@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 //Colors
 $bg-color: black;
 $color-primary: white;
+$color-secondary: #384AD3;
+$color-tertiary: #9C9C9C;
 
 //Fonts
-$font-primary: 'Oswald', sans-serif;
+$font-primary: 'Poppins', sans-serif;
 $font-secondary: 'Roboto Mono', sans-serif;
+
+//variables
+
+@mixin content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+@mixin span-blue {
+    color: $color-secondary;
+}
