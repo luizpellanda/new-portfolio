@@ -1,0 +1,23 @@
+@import '../abstract/variables';
+
+#skills {
+    width: 90%;
+    height: 70vh;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;  
+    margin: 0 auto;
+    
+    .skillset {
+        .skill-title {
+      
+            .title {
+                @include title;
+
+                span {
+                    @include span-blue;
+                }
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@
 
     .about-me-content {
         display: flex;
-        padding: 0 1.5rem;
+        padding: 1.5rem;
 
         .about-me-image {
             display: none;
@@ -13,9 +13,7 @@
 
         .about-me-text {
             .about-me-title {
-                font-size: 3rem;
-                font-weight: bold;
-                margin-bottom: 1.5rem;
+                @include title;
         
                 span {
                     color: $color-secondary;
@@ -51,13 +49,17 @@
             width: 90%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
             .about-me-section{
-                width: 50%;
+                width: 50%;                
             }
     
             .about-me-image {
                 display: block;
+                max-width: 530px;
+                height: auto;
+                width: 100%;
+                border-radius: 8px;
                 text-align: center;
             }
         }

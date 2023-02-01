@@ -23,6 +23,12 @@ $font-secondary: 'Roboto Mono', sans-serif;
     color: $color-secondary;
 }
 
+@mixin title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
 @mixin button {
     background-color: $color-secondary;
     padding: .5rem 3rem;

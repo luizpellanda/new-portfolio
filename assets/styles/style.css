@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +102,7 @@ header .mobile-menu {
 }
 #hero {
   padding: 1rem;
-  height: 100vh;
+  height: 80vh;
   background-image: url("../img/hero_bg.png");
   background-size: cover;
   background-position: center;
@@ -137,18 +139,6 @@ header .mobile-menu {
     position: relative;
     top: 10rem;
   }
-  #hero .hero-content .hero-title {
-    font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-  }
-  #hero .hero-content .hero-title .blue {
-    color: #384AD3;
-  }
-  #hero .hero-content .hero-text {
-    color: #9C9C9C;
-    margin-bottom: 1.5rem;
-  }
   #hero .hero-content .hero-button {
     background-color: #384AD3;
     padding: 0.5rem 3rem;
@@ -161,7 +151,7 @@ header .mobile-menu {
 }
 #about-me .about-me-content {
   display: flex;
-  padding: 0 1.5rem;
+  padding: 1.5rem;
 }
 #about-me .about-me-content .about-me-image {
   display: none;
@@ -200,13 +190,33 @@ header .mobile-menu {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
   #about-me .about-me-content .about-me-section {
     width: 50%;
   }
   #about-me .about-me-content .about-me-image {
     display: block;
+    max-width: 530px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
     text-align: center;
   }
+}
+#skills {
+  width: 90%;
+  height: 70vh;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+#skills .skillset .skill-title .title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+#skills .skillset .skill-title .title span {
+  color: #384AD3;
 }/*# sourceMappingURL=style.css.map */
