@@ -22,3 +22,10 @@ $font-secondary: 'Roboto Mono', sans-serif;
 @mixin span-blue {
     color: $color-secondary;
 }
+
+@mixin button {
+    background-color: $color-secondary;
+    padding: .5rem 3rem;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+@import '../abstract/variables';
+
+#about-me {
+    background-color: #171717;
+
+    .about-me-content {
+        display: flex;
+        padding: 0 1.5rem;
+
+        .about-me-image {
+            display: none;
+        }
+
+        .about-me-text {
+            .about-me-title {
+                font-size: 3rem;
+                font-weight: bold;
+                margin-bottom: 1.5rem;
+        
+                span {
+                    color: $color-secondary;
+                }
+            }
+        
+            .about-me-p {
+                font-weight: 100;
+                letter-spacing: .1rem;
+                margin-bottom: 1.5rem;
+        
+                span {
+                    color: $color-secondary;
+                    font-weight: bold;
+                }
+            }
+
+            .about-me-button {
+                @include button;
+            }
+
+        }
+    }
+}
+
+
+@media screen and (min-width: 730px) {
+    #about-me {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        .about-me-content {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .about-me-section{
+                width: 50%;
+            }
+    
+            .about-me-image {
+                display: block;
+                text-align: center;
+            }
+        }
+    
+    }
+    
+}
