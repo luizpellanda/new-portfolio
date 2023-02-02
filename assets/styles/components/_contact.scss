@@ -1,7 +1,7 @@
 @import '../abstract/variables';
 
 #contact {
-    @include padding-standard;
+    
     margin: 5rem 0;
     min-height: 100vh;
     display: flex;
@@ -23,6 +23,7 @@
         }
 
         .contact-text {
+            @include padding-standard;
             text-align: center;
             @include text;
         }
@@ -75,7 +76,7 @@
             width: 50%;
             .title-2 {
                 text-align: left;
-                .title {
+                .title {                    
                     @include title;
     
                     .blue {
@@ -87,6 +88,7 @@
             .contact-text {
                 text-align: left;
                 @include text;
+                padding: 0;
             }
            
         } 

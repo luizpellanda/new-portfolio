@@ -293,7 +293,6 @@ header .mobile-menu {
 }
 
 #contact {
-  padding: 1.5rem;
   margin: 5rem 0;
   min-height: 100vh;
   display: flex;
@@ -314,6 +313,7 @@ header .mobile-menu {
   color: #384AD3;
 }
 #contact .contact-title .contact-text {
+  padding: 1.5rem;
   text-align: center;
   font-weight: 100;
   letter-spacing: 0.1rem;
@@ -379,6 +379,7 @@ header .mobile-menu {
     letter-spacing: 0.1rem;
     margin-bottom: 1.5rem;
     line-height: 2rem;
+    padding: 0;
   }
   #contact .contact-container {
     width: 50%;
