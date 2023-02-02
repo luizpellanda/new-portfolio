@@ -1,7 +1,7 @@
 @import '../abstract/variables';
 
 #hero {
-    padding: 1rem;
+    @include padding-standard;
     height: 80vh;
     background-image: url('../img/hero_bg.png');
     background-size: cover;

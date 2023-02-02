@@ -9,7 +9,7 @@
 
     .about-me-content {
         display: flex;
-        padding: 1.5rem;
+        @include padding-standard;
 
         .about-me-image {
             display: none;
@@ -25,9 +25,7 @@
             }
         
             .about-me-p {
-                font-weight: 100;
-                letter-spacing: .1rem;
-                margin-bottom: 1.5rem;
+                @include text;
         
                 span {
                     color: $color-secondary;

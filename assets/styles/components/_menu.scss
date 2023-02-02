@@ -63,7 +63,7 @@ header {
 
     header {
         .nav-bar {
-            padding: 1.5rem;
+            @include padding-standard;
             
             .nav-list {
                 .nav-item {

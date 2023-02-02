@@ -12,6 +12,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +30,7 @@ body {
 header {
   width: 90%;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 header .nav-bar {
   display: flex;
@@ -103,7 +105,7 @@ header .mobile-menu {
   }
 }
 #hero {
-  padding: 1rem;
+  padding: 1.5rem;
   height: 80vh;
   background-image: url("../img/hero_bg.png");
   background-size: cover;
@@ -133,7 +135,7 @@ header .mobile-menu {
   #hero {
     width: 90%;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 3rem;
     height: 100vh;
     background-image: url("../img/hero_bg.png");
   }
@@ -285,4 +287,115 @@ header .mobile-menu {
 }
 #my-work .my-work-content .my-work-img-wrapper:hover .slide-up {
   transform: translateY(0%);
+}
+
+#contact {
+  width: 90%;
+  margin: 3rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact-title .title-2 {
+  text-align: center;
+}
+#contact .contact-title .title-2 .title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+#contact .contact-title .title-2 .title .blue {
+  color: #384AD3;
+}
+#contact .contact-title .contact-text {
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+#contact .contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact .contact-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  width: 90%;
+  max-width: 38rem;
+  border-radius: 10px;
+  justify-content: center;
+}
+#contact .contact-container form input, #contact .contact-container form textarea {
+  border: 0;
+  margin: 0.7rem;
+  padding: 1.2rem;
+  border-radius: 15px;
+  background-color: #171717;
+  color: #535353;
+}
+#contact .contact-container .button .contact-button {
+  background-color: #384AD3;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 730px) {
+  #contact {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem;
+    min-height: 100vh;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+  #contact .contact-title {
+    width: 50%;
+  }
+  #contact .contact-title .title-2 {
+    text-align: left;
+  }
+  #contact .contact-title .title-2 .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  #contact .contact-title .title-2 .title .blue {
+    color: #384AD3;
+  }
+  #contact .contact-title .contact-text {
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+  }
+  #contact .contact-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #contact .contact-container form {
+    width: 100%;
+    padding: 0;
+  }
+  #contact .contact-container form input, #contact .contact-container form textarea {
+    border: 0;
+    margin: 0.7rem;
+    padding: 1.2rem;
+    border-radius: 15px;
+    background-color: #171717;
+    color: #535353;
+  }
+  #contact .contact-container .button .contact-button {
+    background-color: #384AD3;
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=style.css.map */

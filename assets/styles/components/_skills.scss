@@ -3,7 +3,7 @@
 #skills {
     width: 90%;
     height: 70vh;
-    padding: 1.5rem;
+    @include padding-standard;
     display: flex;
     align-items: center;  
     margin: 0 auto;

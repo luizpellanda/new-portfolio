@@ -7,6 +7,7 @@ $color-primary: white;
 $color-secondary: #384AD3;
 $color-tertiary: #9C9C9C;
 $color-quartenary: #171717;
+$color-text-form: #535353;
 
 //Fonts
 $font-primary: 'Poppins', sans-serif;
@@ -17,6 +18,10 @@ $font-secondary: 'Roboto Mono', sans-serif;
 @mixin content {
     width: 90%;
     margin: 0 auto;
+    padding: 3rem;
+}
+
+@mixin padding-standard {
     padding: 1.5rem;
 }
 
@@ -35,4 +40,10 @@ $font-secondary: 'Roboto Mono', sans-serif;
     padding: .5rem 3rem;
     border-radius: 20px;
     cursor: pointer;
+}
+
+@mixin text {
+    font-weight: 100;
+    letter-spacing: .1rem;
+    margin-bottom: 1.5rem;
 }
