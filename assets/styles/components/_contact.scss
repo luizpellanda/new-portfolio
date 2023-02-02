@@ -2,12 +2,13 @@
 
 #contact {
     width: 90%;
-    margin: 3rem 0;
+    margin: 5rem 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     .contact-title {
         .title-2 {
@@ -67,6 +68,7 @@
         min-height: 100vh;
         flex-direction: row;
         align-items: flex-start;
+        margin-top: 5rem;
         @include padding-standard; 
     
         .contact-title {

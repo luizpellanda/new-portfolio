@@ -11,9 +11,7 @@
     .hero-content {
 
         .hero-title {
-            font-size: 4rem;
-            font-weight: bold;
-            margin-bottom: 1.5rem;
+            @include title;
 
             .blue {
                 color: $color-secondary;

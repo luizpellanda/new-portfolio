@@ -167,7 +167,7 @@ header .mobile-menu {
   display: none;
 }
 #about-me .about-me-content .about-me-text .about-me-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
@@ -178,6 +178,7 @@ header .mobile-menu {
   font-weight: 100;
   letter-spacing: 0.1rem;
   margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 #about-me .about-me-content .about-me-text .about-me-p span {
   color: #384AD3;
@@ -223,7 +224,7 @@ header .mobile-menu {
   margin: 0 auto;
 }
 #skills .skillset .skill-title .title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
@@ -233,7 +234,7 @@ header .mobile-menu {
 
 #my-work {
   min-height: 100vh;
-  padding-top: 3rem;
+  padding-top: 5rem;
   background-color: #171717;
 }
 #my-work .my-work-content .my-work-title {
@@ -241,7 +242,7 @@ header .mobile-menu {
   margin-bottom: 5rem;
 }
 #my-work .my-work-content .my-work-title .title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
@@ -293,18 +294,19 @@ header .mobile-menu {
 
 #contact {
   width: 90%;
-  margin: 3rem 0;
+  margin: 5rem 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 #contact .contact-title .title-2 {
   text-align: center;
 }
 #contact .contact-title .title-2 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
@@ -315,6 +317,7 @@ header .mobile-menu {
   font-weight: 100;
   letter-spacing: 0.1rem;
   margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 #contact .contact-container {
   display: flex;
@@ -354,6 +357,7 @@ header .mobile-menu {
     min-height: 100vh;
     flex-direction: row;
     align-items: flex-start;
+    margin-top: 5rem;
     padding: 1.5rem;
   }
   #contact .contact-title {
@@ -363,7 +367,7 @@ header .mobile-menu {
     text-align: left;
   }
   #contact .contact-title .title-2 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
   }
@@ -374,6 +378,7 @@ header .mobile-menu {
     font-weight: 100;
     letter-spacing: 0.1rem;
     margin-bottom: 1.5rem;
+    line-height: 2rem;
   }
   #contact .contact-container {
     width: 50%;
@@ -420,10 +425,11 @@ footer .name-social .name p {
   font-weight: 100;
   letter-spacing: 0.1rem;
   margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 footer .social {
   display: flex;
-  padding: 0 3rem;
+  padding: 5rem 3rem 0 3rem;
   text-align: left;
   align-items: center;
 }
