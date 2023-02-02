@@ -1,0 +1,91 @@
+@import '../abstract/variables';
+
+#my-work {
+    min-height: 100vh;
+    padding-top: 3rem;
+    background-color: $color-quartenary;
+    
+    .my-work-content {
+                .my-work-title {
+            text-align: center;
+            margin-bottom: 5rem;
+            .title {
+                
+                @include title;
+    
+                .blue {
+                    @include span-blue;
+                }
+            }
+        }
+    
+        .my-work-image {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
+            justify-content: space-evenly;
+    
+            .my-work-img-wrapper {
+                position: relative;
+                overflow: hidden;
+                border-radius: 50px;
+                margin: 1.5rem;
+    
+                .blur {
+                    display: block;
+                    width: 100%;
+                    aspect-ratio: 1 / 1;
+                    object-fit: cover;
+                    object-position: center;
+                }
+    
+                .slide-up {
+                    position: absolute;
+                    inset: 0;
+                    font-size: 2rem;
+                    padding: 1rem;
+                    background: #384AD3;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: .7;
+                    transform: translateY(100%);              
+                }
+    
+                .blur,
+                .slide-up {
+                    transition: 350ms ease-in-out;
+                }
+       
+                
+            }
+        }
+        
+        .my-work-img-wrapper:hover {
+            
+            .blur {
+                filter: blur(5px);
+            }
+    
+            .slide-up {
+                transform: translateY(0%);
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 730px) {
+    #my-work {
+        .my-work-content {
+            .my-work-title {
+            }
+        }
+
+        .my-work-image {
+            .my-work-img-wrapper {
+
+            }
+        }
+    }
+
+}
