@@ -330,6 +330,7 @@ header .mobile-menu {
   display: flex;
   flex-direction: column;
   width: 90%;
+  max-width: 350px;
   border-radius: 10px;
   justify-content: center;
 }
@@ -391,6 +392,7 @@ header .mobile-menu {
   #contact .contact-container form {
     width: 100%;
     padding: 0;
+    max-width: none;
   }
   #contact .contact-container form input, #contact .contact-container form textarea {
     border: 0;
