@@ -12,8 +12,17 @@
       src="https://kit.fontawesome.com/0e49b2c447.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <link rel="stylesheet" href="./assets/styles/reset.css">
-    <link rel="stylesheet" href="./assets/styles/style.css">    
+    <link rel="stylesheet" href="./assets/styles/style.css"> 
+    <script type="text/javascript">
+        (function () {
+          emailjs.init("Q_VQ2UT0doO5W7Xc6");
+        })();
+    </script>   
     <script src="./assets/js/app.js" defer></script>
     <title>Luiz Pellanda || Porfolio</title>
 </head>
@@ -139,10 +148,34 @@
             ></textarea>
           </form>
           <div class="button">
-            <button class="contact-button" type="submit" onclick="SendMail()">Send</button>
+            <button class="contact-button" id='send-mail-button' type="submit" >Send</button>
           </div>
         </div>
-      </section>
+    </section>
+
+    <footer>
+        <div class="name-social">
+          <div class="name">
+            <h4>LUIZ PELLANDA</h4>
+            <p>Front-end developer</p>
+          </div>
+          <div class="social">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/luizpellanda" target="_blank"
+                ><i class="fa-brands fa-linkedin" href></i
+              ></a>
+              <i class="fa-brands fa-github"></i>
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            © Copyright 2022. Made by
+            <a>Luiz Pellanda</a>
+          </p>
+        </div>
+      </footer>
       
     
 

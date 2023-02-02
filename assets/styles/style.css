@@ -14,6 +14,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -397,5 +399,58 @@ header .mobile-menu {
     padding: 0.5rem 3rem;
     border-radius: 20px;
     cursor: pointer;
+  }
+}
+footer {
+  background-color: #171717;
+  text-align: left;
+  padding: 1.5rem;
+}
+footer .name-social {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 0 2rem;
+}
+footer .name-social .name h4 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+footer .name-social .name p {
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+footer .social {
+  display: flex;
+  padding: 0 3rem;
+  text-align: left;
+  align-items: center;
+}
+footer .social .social-icons {
+  scale: 1.5;
+  padding: 1rem;
+}
+footer .social .social-icons:hover {
+  cursor: pointer;
+}
+footer .copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 2rem 2rem;
+  border-top: 1px solid #444;
+  margin: 0 4rem;
+}
+footer .copyright p {
+  color: inherit;
+}
+
+@media screen and (max-width: 730px) {
+  footer .name-social {
+    flex-direction: column;
+  }
+  footer .copyright {
+    padding: 2rem 0;
+    margin: 0 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
