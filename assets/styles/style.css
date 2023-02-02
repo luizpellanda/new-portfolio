@@ -293,7 +293,7 @@ header .mobile-menu {
 }
 
 #contact {
-  width: 90%;
+  padding: 1.5rem;
   margin: 5rem 0;
   min-height: 100vh;
   display: flex;
@@ -314,6 +314,7 @@ header .mobile-menu {
   color: #384AD3;
 }
 #contact .contact-title .contact-text {
+  text-align: center;
   font-weight: 100;
   letter-spacing: 0.1rem;
   margin-bottom: 1.5rem;
@@ -328,9 +329,7 @@ header .mobile-menu {
 #contact .contact-container form {
   display: flex;
   flex-direction: column;
-  padding: 2rem 4rem;
   width: 90%;
-  max-width: 38rem;
   border-radius: 10px;
   justify-content: center;
 }
@@ -375,6 +374,7 @@ header .mobile-menu {
     color: #384AD3;
   }
   #contact .contact-title .contact-text {
+    text-align: left;
     font-weight: 100;
     letter-spacing: 0.1rem;
     margin-bottom: 1.5rem;
@@ -452,6 +452,9 @@ footer .copyright p {
 }
 
 @media screen and (max-width: 730px) {
+  footer {
+    text-align: center;
+  }
   footer .name-social {
     flex-direction: column;
   }
