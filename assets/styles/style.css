@@ -217,11 +217,16 @@ header .mobile-menu {
 }
 #skills {
   width: 90%;
-  height: 70vh;
+  min-height: 60vh;
   padding: 1.5rem;
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+#skills .skillset {
+  width: 100%;
 }
 #skills .skillset .skill-title .title {
   font-size: 4rem;
@@ -230,6 +235,21 @@ header .mobile-menu {
 }
 #skills .skillset .skill-title .title span {
   color: #384AD3;
+}
+#skills .skillset .skill-icons {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+#skills .skillset .skill-icons .icons .icon {
+  scale: 5;
+  margin: 5rem;
+  transition: all 0.2s;
+}
+#skills .skillset .skill-icons .icons .icon:hover {
+  transform: translateY(-1px);
 }
 
 #my-work {

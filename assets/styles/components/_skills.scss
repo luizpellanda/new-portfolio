@@ -2,13 +2,16 @@
 
 #skills {
     width: 90%;
-    height: 70vh;
+    min-height: 60vh;
     @include padding-standard;
     display: flex;
-    align-items: center;  
+    justify-content: center;  
     margin: 0 auto;
+    text-align: center;
+    margin-top: 5rem;
     
     .skillset {
+        width: 100%;
         .skill-title {
       
             .title {
@@ -16,6 +19,25 @@
 
                 span {
                     @include span-blue;
+                }
+            }
+        }
+
+        .skill-icons {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0 auto;
+            .icons {
+                .icon {
+                    scale: 5;
+                    margin: 5rem;
+                    transition: all .2s;
+                }
+
+                .icon:hover {
+                    transform: translateY(-1px);
                 }
             }
         }
