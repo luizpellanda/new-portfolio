@@ -3,7 +3,7 @@
 footer {
     background-color: $color-quartenary;
     text-align: left;
-    @include padding-standard;
+    padding: 1.5rem 3rem;
 
     .name-social {
         display: flex;
@@ -54,6 +54,7 @@ footer {
 
 @media screen and (max-width: 730px) {
     footer {  
+        @include padding-standard;
         text-align: center;  
         .name-social {
             flex-direction: column;

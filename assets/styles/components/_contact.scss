@@ -66,14 +66,15 @@
 @media screen and (min-width: 730px) {
     #contact {
         @include content;
+        @include padding-standard; 
         min-height: 100vh;
         flex-direction: row;
         align-items: flex-start;
         margin-top: 5rem;
-        @include padding-standard; 
+        
     
         .contact-title {
-            width: 50%;
+            width: 47%;
             .title-2 {
                 text-align: left;
                 .title {                    
