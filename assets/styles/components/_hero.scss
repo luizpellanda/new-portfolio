@@ -31,8 +31,8 @@
 
 @media screen and (min-width: 730px) {
     #hero {
+        height: 90vh;
         @include content;
-        height: 100vh;
         background-image: url('../img/hero_bg.png');
     
         .hero-content {

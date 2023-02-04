@@ -135,10 +135,10 @@ header .mobile-menu {
 
 @media screen and (min-width: 730px) {
   #hero {
+    height: 90vh;
     width: 90%;
     margin: 0 auto;
     padding: 3rem;
-    height: 100vh;
     background-image: url("../img/hero_bg.png");
   }
   #hero .hero-content {
@@ -193,7 +193,7 @@ header .mobile-menu {
 
 @media screen and (min-width: 730px) {
   #about-me {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
   }
