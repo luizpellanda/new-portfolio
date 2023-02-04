@@ -1,9 +1,7 @@
 @import '../abstract/variables';
 
 header {
-
     @include content;
-
     .nav-bar {
         display: flex;
         justify-content: space-between;

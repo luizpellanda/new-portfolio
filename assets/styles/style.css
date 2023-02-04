@@ -23,6 +23,10 @@
   font-size: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   color: white;
@@ -217,13 +221,14 @@ header .mobile-menu {
 }
 #skills {
   width: 90%;
-  min-height: 60vh;
+  min-height: 100vh;
   padding: 1.5rem;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  align-items: center;
   text-align: center;
-  margin-top: 5rem;
+  margin: 0 auto;
+  padding: 5rem 0;
 }
 #skills .skillset {
   width: 100%;
@@ -247,9 +252,6 @@ header .mobile-menu {
   scale: 5;
   margin: 5rem;
   transition: all 0.2s;
-}
-#skills .skillset .skill-icons .icons .icon:hover {
-  transform: translateY(-1px);
 }
 
 #my-work {
