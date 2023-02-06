@@ -78,8 +78,8 @@ header .mobile-menu {
 }
 
 @media screen and (max-width: 730px) {
-  header .nav-bar {
-    padding: 1.5rem;
+  header {
+    padding: 3rem 0.3rem;
   }
   header .nav-bar .nav-list .nav-item {
     display: none;
@@ -154,7 +154,7 @@ header .mobile-menu {
 }
 #about-me {
   background-color: #171717;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
