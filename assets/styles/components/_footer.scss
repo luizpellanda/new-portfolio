@@ -25,13 +25,15 @@ footer {
 
     .social {
         display: flex;
-        padding: 5rem 3rem 0 3rem;
+        justify-content: center;
         text-align: left;
         align-items: center;
 
         .social-icons {
+            display: flex;
+            gap: .5rem;
             scale: 1.5;
-            padding: 1rem;
+            width: 5rem;
         }
 
         .social-icons:hover {
@@ -58,6 +60,12 @@ footer {
         text-align: center;  
         .name-social {
             flex-direction: column;
+        }
+
+        .social {
+            .social-icons {
+                width: auto;
+            }
         }
     
         .copyright {

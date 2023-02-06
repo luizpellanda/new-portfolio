@@ -26,6 +26,11 @@
             @include padding-standard;
             text-align: center;
             @include text;
+
+            .blue {
+                @include span-blue;
+                font-weight: 700;
+            }
         }
        
     } 

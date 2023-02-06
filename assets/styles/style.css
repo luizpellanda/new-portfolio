@@ -54,10 +54,6 @@ header .nav-bar .logo a {
 header .nav-bar .logo .blue {
   color: #384AD3;
 }
-header .nav-bar .nav-list {
-  display: flex;
-  align-items: center;
-}
 header .nav-bar .nav-list ul {
   display: flex;
   justify-content: center;
@@ -362,6 +358,10 @@ header .mobile-menu {
   margin-bottom: 1.5rem;
   line-height: 2rem;
 }
+#contact .contact-title .contact-text .blue {
+  color: #384AD3;
+  font-weight: 700;
+}
 #contact .contact-container {
   display: flex;
   align-items: center;
@@ -474,13 +474,15 @@ footer .name-social .name p {
 }
 footer .social {
   display: flex;
-  padding: 5rem 3rem 0 3rem;
+  justify-content: center;
   text-align: left;
   align-items: center;
 }
 footer .social .social-icons {
+  display: flex;
+  gap: 0.5rem;
   scale: 1.5;
-  padding: 1rem;
+  width: 5rem;
 }
 footer .social .social-icons:hover {
   cursor: pointer;
@@ -503,6 +505,9 @@ footer .copyright p {
   }
   footer .name-social {
     flex-direction: column;
+  }
+  footer .social .social-icons {
+    width: auto;
   }
   footer .copyright {
     padding: 2rem 0;
