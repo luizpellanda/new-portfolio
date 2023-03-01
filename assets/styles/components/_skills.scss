@@ -40,3 +40,21 @@
         }
     }
 }
+
+
+@media screen and (max-width: 730px) {
+    #skills {
+        .skillset{
+            .skill-icons {
+                padding-top: 3rem;
+                .icons {
+                    .icon {
+                        scale: 4;
+                        margin: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+

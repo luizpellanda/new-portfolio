@@ -153,7 +153,7 @@ header .mobile-menu {
   }
 }
 #about-me {
-  background-color: #171717;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -208,10 +208,10 @@ header .mobile-menu {
   }
   #about-me .about-me-content .about-me-image {
     display: block;
-    max-width: 530px;
+    max-width: 450px;
     height: auto;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 26px;
     text-align: center;
   }
 }
@@ -250,6 +250,15 @@ header .mobile-menu {
   transition: all 0.2s;
 }
 
+@media screen and (max-width: 730px) {
+  #skills .skillset .skill-icons {
+    padding-top: 3rem;
+  }
+  #skills .skillset .skill-icons .icons .icon {
+    scale: 4;
+    margin: 3rem;
+  }
+}
 #my-work {
   min-height: 100vh;
   padding: 1.5rem;
@@ -324,7 +333,7 @@ header .mobile-menu {
 }
 #my-work .my-work-content .my-work-img-wrapper:hover .blur {
   filter: blur(2px);
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 #my-work .my-work-content .my-work-img-wrapper:hover .slide-up {
   transform: translateY(0%);

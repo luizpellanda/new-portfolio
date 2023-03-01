@@ -32,6 +32,10 @@ const hiddenElements = document.querySelectorAll('.hidden');
 
 //Contact
 
+(function () {
+    emailjs.init("Q_VQ2UT0doO5W7Xc6");
+  })();
+
 const sendMailButton = document.getElementById('send-mail-button');
 sendMailButton.addEventListener('click', () => SendMail())
 
