@@ -399,6 +399,14 @@ header .mobile-menu {
   border-radius: 20px;
   cursor: pointer;
 }
+#contact .contact-container .contact-success {
+  margin-top: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  display: none;
+}
 
 @media screen and (min-width: 730px) {
   #contact {

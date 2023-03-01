@@ -20,6 +20,7 @@
                     @include span-blue;
                 }
             }
+
         }
 
         .contact-text {
@@ -32,6 +33,7 @@
                 font-weight: 700;
             }
         }
+
        
     } 
     
@@ -64,6 +66,12 @@
             .contact-button {
                 @include button;
             }
+        }
+
+        .contact-success {
+            margin-top: 2rem;
+            @include text;
+            display: none;
         }
       }
 }
